@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demomultilock;
+package com.hrishikeshmishra.jm.multilock;
 
 /**
  * @author hrishikesh.mishra

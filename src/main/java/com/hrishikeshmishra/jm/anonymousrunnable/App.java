@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demo3anonymous;
+package com.hrishikeshmishra.jm.anonymousrunnable;
 
 /**
  * @author hrishikesh.mishra

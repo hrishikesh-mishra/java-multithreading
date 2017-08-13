@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demo2runnable;
+package com.hrishikeshmishra.jm.runnable;
 
 /**
  * Throw Runnable Interface

@@ -1,9 +1,9 @@
-package com.hrishikeshmishra.jm.demo1threadclass;
+package com.hrishikeshmishra.jm.runnable;
 
 /**
  * @author hrishikesh.mishra
  */
-public class Runner extends Thread {
+public class Runner implements Runnable {
 
     @Override
     public void run() {

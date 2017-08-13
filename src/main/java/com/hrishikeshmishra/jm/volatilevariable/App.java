@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demovolatile;
+package com.hrishikeshmishra.jm.volatilevariable;
 
 import java.util.Scanner;
 

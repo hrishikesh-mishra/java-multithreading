@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demosynchronized;
+package com.hrishikeshmishra.jm.synchronizedmethod;
 
 /**
  *

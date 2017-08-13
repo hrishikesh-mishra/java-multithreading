@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demomultilock;
+package com.hrishikeshmishra.jm.multilock;
 
 import java.util.ArrayList;
 import java.util.List;
