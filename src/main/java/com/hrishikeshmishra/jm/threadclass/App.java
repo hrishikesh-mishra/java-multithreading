@@ -2,6 +2,7 @@ package com.hrishikeshmishra.jm.threadclass;
 
 /**
  * Through Thread Class
+ *
  * @author hrishikesh.mishra
  */
 public class App {
@@ -14,7 +15,6 @@ public class App {
         runner2.start();
 
         System.out.println("Main Exit.");
-
 
 
     }

@@ -2,6 +2,7 @@ package com.hrishikeshmishra.jm.runnable;
 
 /**
  * Throw Runnable Interface
+ *
  * @author hrishikesh.mishra
  */
 public class App {

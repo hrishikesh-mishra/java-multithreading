@@ -15,7 +15,7 @@ public class App {
 
         ExecutorService executor = Executors.newFixedThreadPool(3);
 
-        for (int i=0; i < 3; i ++){
+        for (int i = 0; i < 3; i++) {
             executor.submit(new Processor(latch));
         }
 

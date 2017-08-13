@@ -18,7 +18,6 @@ public class App {
         });
 
 
-
         Thread t2 = new Thread(() -> {
 
             try {

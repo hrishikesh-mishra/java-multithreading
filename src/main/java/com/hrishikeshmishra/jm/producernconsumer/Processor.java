@@ -13,9 +13,9 @@ public class Processor {
     private Object lock = new Object();
 
     public void produce() throws InterruptedException {
-        int value = 0 ;
+        int value = 0;
 
-        while (true){
+        while (true) {
 
             synchronized (lock) {
                 /** Wait till queue is full **/
@@ -34,11 +34,11 @@ public class Processor {
 
         Random random = new Random();
 
-        while (true){
+        while (true) {
             synchronized (lock) {
 
                 /** When queue is empty  **/
-                while (queue.isEmpty()){
+                while (queue.isEmpty()) {
                     lock.wait();
                 }
                 System.out.println("Queue : " + queue);
@@ -50,7 +50,6 @@ public class Processor {
             Thread.sleep(random.nextInt(1000));
         }
     }
-
 
 
 }

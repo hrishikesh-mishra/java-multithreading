@@ -9,7 +9,7 @@ public class Processor {
 
     public void produce() throws InterruptedException {
 
-        synchronized (this){
+        synchronized (this) {
             System.out.println("Producer thread running.");
             wait();
             System.out.println("Resumed..");
@@ -21,7 +21,7 @@ public class Processor {
 
         Thread.sleep(2000);
 
-        synchronized (this){
+        synchronized (this) {
             System.out.println("Waiting for return key..");
             in.nextLine();
             System.out.println("Return key pressed.");

@@ -10,12 +10,12 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Runner {
 
-    private int count =0 ;
-    private Lock lock  = new ReentrantLock();
+    private int count = 0;
+    private Lock lock = new ReentrantLock();
     private Condition cond = lock.newCondition();
 
     private void increment() {
-        for (int i =0 ; i <10000; i++){
+        for (int i = 0; i < 10000; i++) {
             count++;
         }
     }
@@ -29,7 +29,7 @@ public class Runner {
 
         try {
             increment();
-        }finally {
+        } finally {
             lock.unlock();
         }
     }
@@ -46,7 +46,7 @@ public class Runner {
 
         try {
             increment();
-        }finally {
+        } finally {
             lock.unlock();
         }
     }

@@ -29,7 +29,6 @@ public class App {
         consumer.start();
 
 
-
         producer.join();
         consumer.join();
 

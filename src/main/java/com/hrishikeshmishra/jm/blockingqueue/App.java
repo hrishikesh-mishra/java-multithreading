@@ -6,6 +6,7 @@ import java.util.concurrent.BlockingQueue;
 
 /**
  * Blocking Queue Example
+ *
  * @author hrishikesh.mishra
  */
 public class App {
@@ -42,7 +43,7 @@ public class App {
     private static void producer() throws InterruptedException {
         Random random = new Random();
 
-        while (true){
+        while (true) {
             queue.put(random.nextInt(100));
         }
     }
@@ -50,13 +51,13 @@ public class App {
     private static void consumer() throws InterruptedException {
         Random random = new Random();
 
-        while (true){
+        while (true) {
             Thread.sleep(100);
 
-            if(random.nextInt(10) == 0){
+            if (random.nextInt(10) == 0) {
                 Integer value = queue.take();
 
-                System.out.printf("Taken value : %d; Queue size is: %d; Q %s\n",  value, queue.size(), queue);
+                System.out.printf("Taken value : %d; Queue size is: %d; Q %s\n", value, queue.size(), queue);
             }
         }
     }

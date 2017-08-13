@@ -9,15 +9,16 @@ import java.util.Random;
  */
 public class Worker {
 
-    private Random random  = new Random();
+    private Random random = new Random();
 
     private List<Integer> list1 = new ArrayList<>();
     private List<Integer> list2 = new ArrayList<>();
 
-    /** Lock objects **/
+    /**
+     * Lock objects
+     **/
     private final Object lock1 = new Object();
     private final Object lock2 = new Object();
-
 
 
     public void stageOne() {
@@ -36,7 +37,7 @@ public class Worker {
 
     }
 
-    public  void stageTwo() {
+    public void stageTwo() {
 
         synchronized (lock2) {
 
@@ -52,8 +53,8 @@ public class Worker {
 
     }
 
-    public void process( ){
-        for (int i=0; i < 1000; i ++){
+    public void process() {
+        for (int i = 0; i < 1000; i++) {
             stageOne();
             stageTwo();
         }
@@ -92,7 +93,7 @@ public class Worker {
         long end = System.currentTimeMillis();
 
 
-        System.out.println("Time take : "  + ( end - start));
+        System.out.println("Time take : " + (end - start));
         System.out.printf("List-1: %d; List-    2: %d\n", list1.size(), list2.size());
 
     }

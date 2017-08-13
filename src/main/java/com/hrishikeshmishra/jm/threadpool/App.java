@@ -11,9 +11,9 @@ public class App {
 
     public static void main(String[] args) throws InterruptedException {
 
-        ExecutorService executor  = Executors.newFixedThreadPool(2);
+        ExecutorService executor = Executors.newFixedThreadPool(2);
 
-        for (int i=0; i <5; i ++){
+        for (int i = 0; i < 5; i++) {
             executor.submit(new Processor(i));
         }
 
