@@ -26,6 +26,7 @@ public class Processor {
             in.nextLine();
             System.out.println("Return key pressed.");
             notify();
+            Thread.sleep(5000);
         }
     }
 }
