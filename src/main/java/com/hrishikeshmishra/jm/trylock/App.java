@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.deadlock;
+package com.hrishikeshmishra.jm.trylock;
 
 /**
  * @author hrishikesh.mishra

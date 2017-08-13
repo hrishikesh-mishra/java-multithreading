@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.deadlock;
+package com.hrishikeshmishra.jm.trylock;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;
