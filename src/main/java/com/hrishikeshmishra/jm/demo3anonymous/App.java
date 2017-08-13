@@ -1,6 +1,4 @@
-package com.hrishikeshmishra.jm.demo3;
-
-import com.hrishikeshmishra.jm.demo2.Runner;
+package com.hrishikeshmishra.jm.demo3anonymous;
 
 /**
  * @author hrishikesh.mishra

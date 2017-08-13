@@ -1,4 +1,4 @@
-package com.hrishikeshmishra.jm.demo1;
+package com.hrishikeshmishra.jm.demo1threadclass;
 
 /**
  * Through Thread Class
